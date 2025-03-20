@@ -38,11 +38,6 @@ Jobby App is a job listing application similar to Naukri.com, where users can lo
 - **Username**: rahul
 - **Password**: rahul@2021
 
-## API Endpoints
-- **Login API**: `POST /login` - Authenticate user
-- **Jobs API**: `GET /jobs?search=&employmentType=&salaryRange=` - Fetch jobs
-- **Job Details API**: `GET /jobs/:id` - Fetch job details
-
 ## Authentication Flow
 - Users enter credentials and submit the login form.
 - The app sends a POST request to the login API.
