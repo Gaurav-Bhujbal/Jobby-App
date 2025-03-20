@@ -1,3 +1,59 @@
+# Jobby App
+
+Jobby App is a job listing application similar to Naukri.com, where users can log in to search for jobs based on title, salary range, and employment type.
+
+## Features
+- **User Authentication**: Users can log in using a username and password.
+- **Job Listings**: View a list of jobs with search and filter options.
+- **Job Details Page**: Get detailed information about a specific job.
+- **Search & Filters**: Filter jobs based on salary range and employment type.
+- **Protected Routes**: Only authenticated users can access job listings and job details.
+- **Persistent Login**: JWT token is stored in local storage to maintain user login state.
+
+## Technologies Used
+- **Frontend**: React.js, JavaScript, CSS, Bootstrap
+- **Routing**: React Router
+- **Authentication**: JWT Token, Local Storage
+- **API Calls**: REST API, Fetch API
+
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/jobby-app.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd jobby-app
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
+
+## Login Information
+- **Username**: rahul
+- **Password**: rahul@2021
+
+## API Endpoints
+- **Login API**: `POST /login` - Authenticate user
+- **Jobs API**: `GET /jobs?search=&employmentType=&salaryRange=` - Fetch jobs
+- **Job Details API**: `GET /jobs/:id` - Fetch job details
+
+## Authentication Flow
+- Users enter credentials and submit the login form.
+- The app sends a POST request to the login API.
+- On success, a JWT token is stored in local storage.
+- For protected routes, the app checks for a valid token before granting access.
+
+## Future Improvements
+- Implement user registration.
+- Add pagination for job listings.
+- Improve UI with animations and better styling.
+- Integrate real-time notifications for job updates.
  
 ### Design Files
 
