@@ -19,7 +19,7 @@ Jobby App is a job listing application similar to Naukri.com, where users can lo
 ## Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/jobby-app.git
+   git clone https://github.com/Gaurav-Bhujbal/Jobby-App.git
    ```
 2. Navigate to the project directory:
    ```sh
